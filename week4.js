@@ -54,20 +54,11 @@ for(let i = 0; i <names.length; i++){
    namesLength = names.map(function(x){
         return x.length
     }) //i got the correct answer using the map method but no luck with loops. but close
-     
-   // new Array (function namesLength (x){
-    // console.log(x.length[i])
-    // })
 
-//namesLength.push(sum)
-     //here assignning the count to the array namesLength using push method
-     
    
 
 }
-    //names++
 console.log(namesLength)
-//console.log(sum)
 
 
 //question 6
@@ -101,9 +92,7 @@ console.log('question 8', fullName())
  function isSumGreaterthan100(array){  
     let initialvalue= 0
 
-    //if( array1.reduce(function (accumulator, currentvalue) {
-       // return }))
-//accumulator
+    
 if (sum1 = array1.reduce((accumulator, currentvalue)=> accumulator+currentvalue)
     > 100)
     {
